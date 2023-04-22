@@ -4,6 +4,7 @@ import Friend from "./components/friendBox";
 import LoginInfo from "./components/loginInfo";
 import TopBar from "./components/topBar";
 import "./App.css"
+import FriendInfo from "./components/friendInfo";
 
 class App extends Component {
     render() {
@@ -13,6 +14,7 @@ class App extends Component {
                 <Sidebar/>
                 <Friend/>
                 <Friend/>
+
             </div>
         );
     }
