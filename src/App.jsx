@@ -5,15 +5,15 @@ import LoginInfo from "./components/loginInfo";
 import TopBar from "./components/topBar";
 import "./App.css"
 import FriendInfo from "./components/friendInfo";
+import ProfilePage from "./components/profilePage";
 
 class App extends Component {
     render() {
         return (
             <div>
-                <TopBar/>
                 <Sidebar/>
-                <Friend/>
-                <Friend/>
+                <TopBar/>
+                <ProfilePage/>
 
             </div>
         );
